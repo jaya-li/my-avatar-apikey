@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/api/avatar-chat", "destination": "/api/chat" }
+  ],
+  "functions": {
+    "api/chat.js": {
+      "runtime": "@vercel/node"
+    }
+  }
+}

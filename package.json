@@ -1,0 +1,19 @@
+{
+  "name": "lijiayang-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static site + Vercel avatar API (api/chat) + optional local Express server",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "openai": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
